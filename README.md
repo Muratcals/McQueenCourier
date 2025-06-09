@@ -1,16 +1,41 @@
-# mc_queen_courier
+# McQueenCourier 🚚
 
-A new Flutter project.
+**McQueenCourier**, McQueen kargo sistemi içerisinde **kuryelerin (teslimat görevlilerinin)** kullanımına yönelik geliştirilmiş mobil uygulamadır. Bu uygulama sayesinde kuryeler, teslimatlarını dijital olarak takip edip, durumlarını hızlıca güncelleyerek iş süreçlerini daha verimli hale getirir.
 
-## Getting Started
+## 🔑 Özellikler
 
-This project is a starting point for a Flutter application.
+- 📋 **Teslimatlarım**  
+  Kuryeye atanan aktif teslimatlar, açık ve kullanıcı dostu bir listede görüntülenir.
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **Teslimat Durumu Güncelleme**  
+  "Teslim edildi", "Teslim edilemedi" vb. durumlar kolayca seçilerek sistemde güncellenir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✍️ **İmza ile Onay**  
+  Alıcının imzası alınarak teslimat tamamlandığında sistemde kayıt edilir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔔 **Bildirimler**  
+  Yeni teslimat atamaları veya hatırlatmalar, push bildirimleri olarak kurye cihazına iletilir.
+
+- 👤 **Kullanıcı Profili & Oturum Yönetimi**  
+  Kurye bilgileri görüntülenebilir, oturum açma/kapama işlemleri yapılabilir.
+
+---
+
+## 🛠️ Teknolojiler
+
+- **Flutter** – Platformlar arası mobil geliştirme  
+- **Firebase** – Gerçek zamanlı veritabanı ve kullanıcı kimlik doğrulama  
+
+---
+
+## 🎯 Hedef
+
+McQueenCourier, kargo teslimat sürecini dijitalleştirerek kuryelerin iş akışlarını daha organize, izlenebilir ve zaman tasarruflu hale getirmeyi amaçlar. Ayrıca, müşteri tarafı uygulaması olan [McQueenCargo](https://github.com/Muratcals/McQueenCargo) ile sorunsuz bir şekilde entegre çalışır.
+
+---
+
+## 🚀 Nasıl Başlanır?
+
+1. Bu depoyu klonlayarak alın:  
+   ```bash
+   git clone https://github.com/Muratcals/McQueenCourier.git
